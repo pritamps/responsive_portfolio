@@ -20,4 +20,13 @@ h1 {
     &.lg-heading {
         font-size: 6rem;
     }
+main {
+    h1 {
+        font-size: 6rem;
+    }
+a {
+    &:hover {
+        color: blue;
+    }
 ```
+4. `lighten($primary-color, 2)` can be used to lighten colors.
