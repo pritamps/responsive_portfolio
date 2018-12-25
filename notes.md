@@ -30,3 +30,7 @@ a {
     }
 ```
 4. `lighten($primary-color, 2)` can be used to lighten colors.
+5. `@mixin` allows for functions
+6. `@if` works for if-then-else
+7. Pseudo-elements like `&:after`: One use is to avoid standard `overlay` divs
+8. Partial files start with `_`
