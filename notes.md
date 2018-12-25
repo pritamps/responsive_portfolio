@@ -9,7 +9,7 @@
 ## SASS
 
 1. Global variables with `$`
-2. Can do sub-properties using the `&` operator. For example:
+2. Can do sub-properties and sub-classes and sub-states using the `&` operator. For example:
 ```css
 h1 {
     &.lg-heading {
@@ -29,6 +29,19 @@ a {
 6. `@if` works for if-then-else
 7. Pseudo-elements like `&:after`: One use is to avoid standard `overlay` divs
 8. Partial files start with `_`
+9. `&:after` adds a div with content specified by content property after the div. Example: 
+```css
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($primary-color, $background-opacity);
+    }
+```
 
 ## NPM 
 
