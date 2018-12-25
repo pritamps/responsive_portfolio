@@ -6,7 +6,7 @@
 * Can select all elements inside a `div` with `document.querySelectorAll('.className')`.
 * Can add and remove classes to an element by using `element.classList.add('newClass')`.
 
-## SASS
+## SASS and CSS
 
 1. Global variables with `$`
 2. Can do sub-properties and sub-classes and sub-states using the `&` operator. For example:
@@ -23,6 +23,11 @@ a {
     &:hover {
         color: blue;
     }
+.menu {
+    &-branding {  // This will apply to class menu-branding.
+        color: yellow;
+    }
+}
 ```
 4. `lighten($primary-color, 2)` can be used to lighten colors.
 5. `@mixin` allows for functions
@@ -42,6 +47,7 @@ a {
         background: rgba($primary-color, $background-opacity);
     }
 ```
+10. `translate3D` adds translation.
 
 ## NPM 
 
