@@ -48,6 +48,11 @@ a {
     }
 ```
 10. `translate3D` adds translation.
+11. `mixin`s vs `function`s: Anything that returns a value has to be a function.
+
+## Grid
+
+* Use `grid-gap` for spacing
 
 ## NPM 
 
