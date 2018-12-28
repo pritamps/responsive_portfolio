@@ -49,6 +49,14 @@ a {
 ```
 10. `translate3D` adds translation.
 11. `mixin`s vs `function`s: Anything that returns a value has to be a function.
+12. Inheritance example:
+```css
+.btn-dark {
+  @extend .btn;
+  // Other properties follow
+}
+```
+
 
 ## Grid
 
